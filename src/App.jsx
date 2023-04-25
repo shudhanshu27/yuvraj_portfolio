@@ -16,12 +16,18 @@ function App() {
 <About/>
 
 <Tech/>
+
+
 <Works/>
 <Feedbacks/>
-<StarsCanvas/>
+{/* <StarsCanvas/> */}
 <div className="relative z-0" >
 <Contact/>
-<StarsCanvas/>
+
+{/* <StarsCanvas/> */}
+
+
+
 
 </div>
 
