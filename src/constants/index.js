@@ -4,7 +4,7 @@ import {
     creator,
     web,
     javascript,
-    typescript,
+    
     html,
     css,
     youtubeCourses,
@@ -72,6 +72,15 @@ import {
   
   const technologies = [
     {
+      name: "C++",
+      icon: c,
+    },
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
+   
+    {
       name: "HTML 5",
       icon: html,
     },
@@ -92,21 +101,14 @@ import {
       name: "Redux Toolkit",
       icon: redux,
     },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-   
+    
    
     {
       name: "git",
       icon: git,
     },
    
-    {
-      name: "C++",
-      icon: c,
-    },
+   
     {
       name: "github",
       icon:github,
