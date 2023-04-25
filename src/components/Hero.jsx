@@ -26,7 +26,7 @@ const Hero = () => {
 </div>
 
 </div>
-<div className='w-full h-full' >
+<div className='w-full h-full hidden sm:flex' >
    <ComputersCanvas  />
 </div>
 
