@@ -1,5 +1,7 @@
 import {BrowserRouter } from 'react-router-dom';
 import {About,Contact,Feedbacks,Hero,Navbar,Works,StarsCanvas, Tech} from './components' ;
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 function App() {
@@ -34,6 +36,7 @@ function App() {
 
 
     </div>
+    <ToastContainer className="bg-red" />
    </BrowserRouter>
   )
 }

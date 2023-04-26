@@ -1,7 +1,8 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
@@ -15,7 +16,7 @@ const Contact = () => {
     message: "",
   });
 
-  // template_x76gzbp     service_ufiqkx5   qrJn5xE2cSg6QSrTI
+  // template_68azonv    service_0uyg9cq  qrJn5xE2cSg6QSrTI
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
@@ -32,25 +33,28 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs
-      .send(
-        'service_ufiqkx5',
-        'template_x76gzbp',
+    emailjs.send(
+        'service_0uyg9cq',
+        'template_68azonv',
         {
           from_name: form.name,
-          to_name: "Yuvraj Singh",
+          to_name: "Yuvraj",
           from_email: form.email,
           to_email: "yuvrajsingh7452@gmail.com",
           message: form.message,
         },
-        qrJn5xE2cSg6QSrTI,
+       'qrJn5xE2cSg6QSrTI'
+     
        
       )
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
-
+          // alert("Thank you. I will get back to you as soon as possible.");
+          console.log("mail sent successfully" );
+         
+          toast.success("Thank you. I will get back to you as soon as possible.");
+          
           setForm({
             name: "",
             email: "",
@@ -61,7 +65,9 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert(" something went wrong. Please try again.");
+
+          // alert(" something went wrong. Please try again.");
+          toast.warning(" something went wrong. Please try again.");
         }
       );
   };
