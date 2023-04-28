@@ -29,6 +29,9 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
+import linkedin from "./linkedin.jpeg";
+import twitter from "./twitter.png";
+
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
@@ -44,6 +47,8 @@ import tripguide from "./tripguide.png";
 export {
   logo,
   comp,
+  linkedin,
+  twitter,
   backend,
   creator,
   mobile,
