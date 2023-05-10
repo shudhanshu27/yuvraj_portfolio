@@ -19,17 +19,17 @@ const FeedbackCard = ({
   
 
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className='bg-primary flex justify-center p-10 rounded-3xl xs:w-[620px]  w-full'
+    className=' flex justify-center p-10 rounded-3xl xs:w-[620px]  w-full'
   >
   <Tilt
         options={{max:45,scale:1,speed:450}}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className=" p-5 rounded-2xl sm:w-[360px] w-full"
         >
-    <p className='text-white font-black text-[48px]'>"</p>
+    <p className='text-black font-black text-[48px]'>"</p>
 
     <div className=''>
-    <h1 className="text-[40px] text-bold text-purple-100 " >Honors And Awards</h1>
-      <p className='text-white tracking-wider text-[18px]'> AKTU Zonal level Gold medallist in Volleyball (2022)</p>
+    <h1 className="text-[40px] text-bold text-black " >Honors And Awards</h1>
+      <p className='text-black tracking-wider text-[18px]'> AKTU Zonal level Gold medallist in Volleyball (2022)</p>
 
       <div className='mt-7 flex justify-between items-center gap-1'>
        
@@ -38,7 +38,7 @@ const FeedbackCard = ({
       </div>
 
       {/* second award */}
-      <p className='text-white tracking-wider text-[18px]'> AKTU Zonal level Gold medallist in Volleyball (2022)</p>
+      <p className='text-black tracking-wider text-[18px]'> AKTU Zonal level Gold medallist in Volleyball (2022)</p>
 
 <div className='mt-7 flex justify-between items-center gap-1'>
  
@@ -57,7 +57,7 @@ const FeedbackCard = ({
 
 const Feedbacks = () => {
   return (
-    <div className={`mt-12 mb-10 bg-black-100 relative rounded-[20px]`}>
+    <div className={`mt-12 mb-10 relative rounded-[20px]`}>
 
 
 
@@ -70,7 +70,7 @@ const Feedbacks = () => {
 
     </div>
       <div
-        className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
+        className={` rounded-2xl ${styles.padding} min-h-[300px]`}
       >
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>LifeStyle:</p>

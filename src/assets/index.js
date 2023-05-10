@@ -9,7 +9,7 @@ import youtubeCourses from "./youtubeCourses.png";
 import weatherapp from "./weatherapp.png";
 import newsapp from "./newsapp.png";
 
-
+import student from "./student.png"
 import python from "./python.png";
 
 import mobile from "./mobile.png";
@@ -47,6 +47,7 @@ import tripguide from "./tripguide.png";
 export {
   logo,
   comp,
+  student,
   linkedin,
   twitter,
   backend,

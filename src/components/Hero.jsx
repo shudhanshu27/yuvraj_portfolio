@@ -2,14 +2,15 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { styles } from '../styles'
 import { ComputersCanvas } from './canvas'
-
+import { student } from '../assets'
 const Hero = () => {
   return (
-    <section className='relative w-full h-screen mx-auto  '  >
+    //
+    <section className='relative flex w-full h-screen mx-auto  '  >
 
-<div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`   } >
+<div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto  flex flex-row items-start gap-5`   } >
 <div className='flex flex-col justify-center items-center mt-5' >
-  <div className='w-5 h-5 rounded-full bg-[#915eff]' />
+  <div className='w-5 h-5 rounded-full violet-gradient' />
 
   
 
@@ -18,16 +19,18 @@ const Hero = () => {
 
 </div>
 
-<div>
-  <h1 className={`  ${styles.heroHeadText }  `} >Hi , I'm <span className='text-[#915eff]'>Yuvraj Singh</span></h1>
-  <p className={`${styles.heroSubText} mt-2 text-white-100 `}>
+<div className='z-10' >
+  <h1 className={`  ${styles.heroHeadText }  `} ><span className='text-black' >Hi , I'm </span><span className='text-yellow-800'>Yuvraj Singh</span></h1>
+  <p className={`${styles.heroSubText}  mt-2 text-black `}>
    Frontend Developer
   </p>
 </div>
 
 </div>
-<div className='w-full h-full hidden sm:flex' >
-   <ComputersCanvas  />
+<div className='absolute  top-[280px] sm:top-[100px] right-[50px]  ' >
+   <img src={student} className='h-[300px] sm:h-[400px]' />
+
+
 </div>
 
  
@@ -50,6 +53,8 @@ const Hero = () => {
         </a>
       </div>
     </section>
+
+    //
   );
 };
 
