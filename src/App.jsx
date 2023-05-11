@@ -6,6 +6,10 @@ import {linkedin,twitter} from "./assets";
 
 function App() {
 
+
+ 
+
+
   return (
    <BrowserRouter >
     <div  className="relative z-0 bg-gradient-to-r from-cyan-100 to-blue-100 ">
@@ -13,6 +17,7 @@ function App() {
 <Navbar/>
 
 <div className='w-[100vw] ' >
+
   <Hero/>
 </div>
 /////
@@ -52,7 +57,7 @@ function App() {
 
 </div>
 //
-
+<div className='z-30 absolute ' >ggggg</div>
     </div>
     <ToastContainer className="bg-red" />
    </BrowserRouter>
