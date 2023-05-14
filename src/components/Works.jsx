@@ -6,15 +6,19 @@ import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import {fadeIn,textVariant} from '../utils/motion';
 import {Tilt} from 'react-tilt';
-
+import { useState } from 'react';
 
 const ProjectCard=({index,name,description,tags,image,source_code_link,projectLink})=>{
+
+const [description1,setDescription1]=useState([`${description.substr(0,300)}`]);
+
+
 
      return (
       <motion.div variants={fadeIn("up","spring",index*0.5,0.75)} >
         <Tilt
         options={{max:45,scale:1,speed:450}}
-        className="green-pink-gradien bg-black bg-opacity-20 p-5 rounded-2xl sm:w-[360px] w-full"
+        className="green-pink-gradien bg-black bg-opacity-20 p-5 rounded-2xl sm:w-[360px] w-full min-h-[560px] "
         >
 <div className='w-full relative h-[230px] ' >
 <img  src={image} className='w-full h-full object-cover rounded-2xl'   />
@@ -42,15 +46,15 @@ className='black-gradient w-10 h-10 rounded-full flex justify-center items-cente
 </div>
 
 <div className='mt-5' >
-<h3 className='text-white font-bold text-[24px] ' >
+<h3 className='text-yellow-900 font-bold text-[24px] ' >
   {name}
 </h3>
-<p  className='mt-2 text-secondary text-[14px]' >
-  {description}
+<p  className='mt-2 text-gray-800 text-[14px]' >
+  {description1}... 
 </p>
-
+{/* <button onClick={handleLength()} >{long?"Read Less":"Read More"}</button> */}
 </div>
-<div className='mt-4 flex flex-wrap gap-2 ' >
+<div className='mt-4 flex flex-wrap gap-2 ' >s
 {tags.map((tag)=>
 (
   <p key={tag.name} className={`text-[14px] ${tag.color} `} >{`#${tag.name}`}</p>

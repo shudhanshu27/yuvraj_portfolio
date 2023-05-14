@@ -28,7 +28,7 @@ const ServicesCard=({index,title,icon})=>
 
   <img src={icon} alt={title} className='w-16 h-16 object-contain'/>
 
-<h3 className='text-white text-[20px] font-bold text-center' >{title}</h3>
+<h3 className='text-yellow-900 text-[20px] font-bold text-center' >{title}</h3>
 
   </div>
 
@@ -64,7 +64,7 @@ const About = () => {
     </motion.div>
     <motion.p
     variants={fadeIn("","",0.1,1)}
-    className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+    className='mt-4 text-gray-500 text-[17px] max-w-3xl leading-[30px]'
     >
 "Hi there! I'm a skilled web developer with expertise in React JS, JavaScript, HTML, CSS, and Tailwind CSS. I also have strong proficiency in C++ with data structures and algorithms and enjoy practicing competitive programming. I've worked on various projects, including a news website , a top YouTube courses platform built with React. Currently, I'm seeking a frontend internship to further develop my skills and knowledge in web development. Looking forward to working on exciting projects and making a meaningful impact!"
 

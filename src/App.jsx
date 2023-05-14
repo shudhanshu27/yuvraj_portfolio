@@ -16,7 +16,7 @@ function App() {
     <div className="bg-white fixed  ">
 <Navbar/>
 
-<div className='w-[100vw] ' >
+<div className='w-[100vw]  bg-gradient-to-r from-pink-100 to-green-100 ' >
 
   <Hero/>
 </div>
@@ -26,7 +26,13 @@ function App() {
     
 //
 <div className='top-[100vh]  bg-gradient-to-r from-cyan-100 to-blue-100 relative' >
+
+
+<div  >
+
+
 <About/>
+</div>
 
 <div   className='z-20  fixed top-[300px] ' >
 <a href='https://www.linkedin.com/in/yuvraj-singh-613a04201/' >

@@ -41,9 +41,10 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
+// import jobit from "./jobit.png";
+// import tripguide from "./tripguide.png";
+import biopic from "./biopic.png";
+import extensionpic from "./extensionpic.png"
 export {
   logo,
   comp,
@@ -78,7 +79,7 @@ export {
   starbucks,
   tesla,
   carrent,
-  jobit,
-  tripguide,
+ biopic,
+ extensionpic,
   dsa,python,sql,
 };

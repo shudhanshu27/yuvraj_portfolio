@@ -15,21 +15,13 @@ const FeedbackCard = ({
   company,
   image,
 }) => (
-  <motion.div
+ <div>
   
-
-    variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className=' flex justify-center p-10 rounded-3xl xs:w-[620px]  w-full'
-  >
-  <Tilt
-        options={{max:45,scale:1,speed:450}}
-        className=" p-5 rounded-2xl sm:w-[360px] w-full"
-        >
-    <p className='text-black font-black text-[48px]'>"</p>
+    <p className='text-yellow-800 font-black text-[48px]'>"</p>
 
     <div className=''>
-    <h1 className="text-[40px] text-bold text-black " >Honors And Awards</h1>
-      <p className='text-black tracking-wider text-[18px]'> AKTU Zonal level Gold medallist in Volleyball (2022)</p>
+    <h1 className="text-[40px] text-bold text-yellow-900 " >Honors And Awards</h1>
+      <p className='text-yellow-900 tracking-wider text-[18px]'> AKTU Zonal level Gold medallist in Volleyball (2022)</p>
 
       <div className='mt-7 flex justify-between items-center gap-1'>
        
@@ -38,7 +30,7 @@ const FeedbackCard = ({
       </div>
 
       {/* second award */}
-      <p className='text-black tracking-wider text-[18px]'> AKTU Zonal level Gold medallist in Volleyball (2022)</p>
+      <p className='text-yellow-900 tracking-wider text-[18px]'> AKTU Zonal level Gold medallist in Volleyball (2022)</p>
 
 <div className='mt-7 flex justify-between items-center gap-1'>
  
@@ -50,9 +42,9 @@ const FeedbackCard = ({
   />
 </div>
     </div>
-    </Tilt>
-  </motion.div>
-  
+ 
+ 
+    </div> 
 );
 
 const Feedbacks = () => {

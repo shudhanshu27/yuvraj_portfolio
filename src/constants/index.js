@@ -4,7 +4,7 @@ import {
     creator,
     web,
     javascript,
-    
+    biopic,extensionpic,
     html,
     css,
     youtubeCourses,
@@ -25,8 +25,7 @@ import {
     tesla,
     shopify,
     carrent,
-    jobit,
-    tripguide,
+  
     threejs,
     
     comp,
@@ -196,6 +195,50 @@ import {
       ],
       image: youtubeCourses,
       projectLink:"https://yuvraj6446.github.io/youTubeCourses/",
+
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Bio ",
+      description:"I have developed a self-bio web application using ReactJS that showcases my skills and experiences. The app provides links to my resume, GitHub, LinkedIn, and portfolio, allowing users to explore my work in-depth. To connect with me, I have included links to my Twitter, email, WhatsApp, and Instagram. The application has a clean and intuitive design that makes it easy for users to navigate and find the information they need. I have utilized various ReactJS components and libraries to enhance the user experience, such as react-router-dom, react-icons, and react-toastify. The development process involved overcoming various challenges, including responsive design, state management, and debugging, all of which I was able to resolve through my problem-solving skills.",
+   tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "green-text-gradient",
+        }
+      ],
+      image: biopic,
+      projectLink:"https://yuvraj6446.github.io/myBio/",
+
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Cricket Score Chrome Extension",
+      description:"I have developed a live cricket score Chrome extension using HTML, CSS, JavaScript, and the CricAPI. The extension provides users with real-time updates on the latest cricket scores, including live scores, player stats, and team information. The design is sleek and intuitive, with user-friendly features that make it easy to use. I utilized the CricAPI to fetch data and display it in a readable format within the extension. The development process involved overcoming challenges, such as working with third-party APIs and ensuring that the extension is responsive and performs well on all devices. Through my debugging and troubleshooting skills, I ensured that the extension runs smoothly and is bug-free. Overall, the extension is an excellent resource for cricket fans who want to stay up-to-date with the latest scores and stats.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+        {
+          name :"CricAPI",
+          color:"green-text-gradient",
+        }
+      ],
+      image: extensionpic,
+      projectLink:"https://github.com/yuvraj6446/chrome_ext",
 
       source_code_link: "https://github.com/",
     },
