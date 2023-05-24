@@ -133,13 +133,7 @@ import {
   const testimonials = [
   
     {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://png.pngtree.com/png-vector/20191027/ourmid/pngtree-volleyball-award-vector-sport-banner-background-white-ball-gold-winner-trophy-png-image_1876478.jpg",
-    },
+     },
   ];
   
   const projects = [
@@ -265,7 +259,7 @@ import {
         },
       ],
       image: newsapp,
-      projectLink:"https://yuvraj6446.github.io/youTubeCourses/",
+      projectLink:"https://newsappyuv.netlify.app/",
       source_code_link: "https://github.com/",
     },
   ];

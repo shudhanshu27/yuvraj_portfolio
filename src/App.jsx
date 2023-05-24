@@ -20,11 +20,11 @@ function App() {
 
   <Hero/>
 </div>
-/////
+{/* ///// */}
 
     </div>
     
-//
+{/* // */}
 <div className='top-[100vh]  bg-gradient-to-r from-cyan-100 to-blue-100 relative' >
 
 
@@ -62,8 +62,8 @@ function App() {
 </div>
 
 </div>
-//
-<div className='z-30 absolute ' >ggggg</div>
+{/* // */}
+{/* <div className='z-30 absolute ' >ggggg</div> */}
     </div>
     <ToastContainer className="bg-red" />
    </BrowserRouter>

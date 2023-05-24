@@ -136,7 +136,7 @@ const Contact = () => {
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
 
-      <div className="sm:w-full sm:h-full  sm:flex hidden" >
+      <div className="w-full h-full  sm:flex " >
         <EarthCanvas />
         </div>
       </motion.div>
