@@ -64,9 +64,9 @@ const About = () => {
     </motion.div>
     <motion.p
     variants={fadeIn("","",0.1,1)}
-    className='mt-4 text-gray-500 text-[17px] max-w-3xl leading-[30px]'
+    className='mt-4 text-gray-100 text-[17px] max-w-3xl leading-[30px]'
     >
-"Hi there! I'm a skilled web developer with expertise in React JS, JavaScript, HTML, CSS, and Tailwind CSS. I also have strong proficiency in C++ with data structures and algorithms and enjoy practicing competitive programming. I've worked on various projects, including a news website , a top YouTube courses platform built with React. Currently, I'm seeking a frontend internship to further develop my skills and knowledge in web development. Looking forward to working on exciting projects and making a meaningful impact!"
+"Hi there! I'm a skilled web developer with expertise in <span className='text-green-500 outline-double'>React JS, JavaScript, HTML, CSS, and Tailwind CSS</span>. I also have strong proficiency in C++ with data structures and algorithms and enjoy practicing competitive programming. I've worked on various projects, including a news website , a top YouTube courses platform built with React. Currently, I'm seeking a frontend internship to further develop my skills and knowledge in web development. Looking forward to working on exciting projects and making a meaningful impact!"
 
 
     </motion.p>

@@ -17,11 +17,11 @@ const FeedbackCard = ({
 }) => (
  <div>
   
-    <p className='text-yellow-800 font-black text-[48px]'>"</p>
+    <p className='text-yellow-500 font-black text-[48px]'>"</p>
 
     <div className=''>
-    <h1 className="text-[40px] text-bold text-yellow-900 " >Honors And Awards</h1>
-      <p className='text-yellow-900 tracking-wider text-[18px]'> AKTU Zonal level Gold medallist in Volleyball (2022)</p>
+    <h1 className="text-[40px] text-bold text-yellow-500 " >Honors And Awards</h1>
+      <p className='text-yellow-500 tracking-wider text-[18px]'> AKTU Zonal level Gold medallist in Volleyball (2022)</p>
 
       <div className='mt-7 flex justify-between items-center gap-1'>
        
@@ -30,7 +30,7 @@ const FeedbackCard = ({
       </div>
 
       {/* second award */}
-      <p className='text-yellow-900 tracking-wider text-[18px]'> AKTU Zonal level Gold medallist in Volleyball (2022)</p>
+      <p className='text-yellow-500 tracking-wider text-[18px]'> AKTU Zonal level Gold medallist in Volleyball (2022)</p>
 
 <div className='mt-7 flex justify-between items-center gap-1'>
  
@@ -55,9 +55,9 @@ const Feedbacks = () => {
 
 
     <div className="absolute w-[100%] h-[150%]  " >
-    <img 
+    <img  alt="h"
     className="w-[100%] rounded-[20px] object-cover  h-[70%] opacity-20"
-      src={cycleImg}
+      src=""
     />
 
     </div>

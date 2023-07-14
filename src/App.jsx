@@ -12,11 +12,11 @@ function App() {
 
   return (
    <BrowserRouter >
-    <div  className="relative z-0 bg-gradient-to-r from-cyan-100 to-blue-100 ">
+    <div  className="relative z-0 bg-gradient-to-r from-black-100 to-gray-700 ">
     <div className="bg-white fixed  ">
 <Navbar/>
 
-<div className='w-[100vw]  bg-gradient-to-r from-pink-100 to-green-100 ' >
+<div className='w-[100vw]  bg-gradient-to-r from-gray-900 to-gray-700  bg-transparent' >
 
   <Hero/>
 </div>
@@ -25,7 +25,7 @@ function App() {
     </div>
     
 {/* // */}
-<div className='top-[100vh]  bg-gradient-to-r from-cyan-100 to-blue-100 relative' >
+<div className='top-[100vh]  bg-gradient-to-r from-gray-900 to-black-100 opacity-95 relative' >
 
 
 <div  >

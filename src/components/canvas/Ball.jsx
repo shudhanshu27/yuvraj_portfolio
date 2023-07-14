@@ -57,6 +57,8 @@ const BallCanvas=({icon})=>
     <Preload all/>
 
     </Canvas>
+        
   );
+
 };
 export default BallCanvas;
